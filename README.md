@@ -15,7 +15,7 @@ Texas Instruments TIVA-C - PINOUT:
     3.3V          (Vcc, pin 6) power
     back light    (BL,  pin 7) not connected
     Ground        (Gnd, pin 8) ground
---------------------------------------------------------------------------
+
     Red SparkFun Nokia 5110 (LCD-10168)
     --------------------------------------------
     Signal        (Nokia 5110) LaunchPad pin
