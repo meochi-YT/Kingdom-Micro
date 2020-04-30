@@ -1,8 +1,0 @@
-Pino 12 do Arduino ligado no Pino 1 (RST) do display
-Pino 11 do Arduino ligado no Pino 2 (CE) do display
-Pino 10 do Arduino ligado no Pino 3 (DC) do display
-Pino 9 do Arduino ligado no Pino 4 (Din) do display
-Pino 8 do Arduino Ligado no Pino 5 (Clk) do display
-Vcc no pino 6 (Vcc) do display
-BL/VCC com resistor de 220 ohms no pino 7 (BL) do display
-GND no pino 8 (GND) do display
