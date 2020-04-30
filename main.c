@@ -110,20 +110,16 @@ void plotLine(int y0, int x0, int y1, int x1){
 }
 
 //le os botoes e retorna o estado de cada um
-int le_botao(int bot){
-    if(bot > 3){ return -1; }
-
-    if(bot == 1){
-        if(GPIOPinRead(GPIO_PORTF_BASE,GPIO_PIN_0) == 0x00){ return 1; }
-    }else if(bot == 2){
-        if(GPIOPinRead(GPIO_PORTF_BASE,GPIO_PIN_4) == 0X00){ return 1; }
-    }else if(bot == 3){
-        if(GPIOPinRead(GPIO_PORTA_BASE,GPIO_PIN_4) == GPIO_PIN_4){ return 1; }
-    }else{
+int le_botao(int bot) {
+    if (bot == 1) {
+        return (GPIOPinRead(GPIO_PORTF_BASE, GPIO_PIN_0) == 0x00);
+    } else if (bot == 2) {
+        return (GPIOPinRead(GPIO_PORTF_BASE, GPIO_PIN_4) == 0X00);
+    } else if (bot == 3) {
+        return (GPIOPinRead(GPIO_PORTA_BASE, GPIO_PIN_4) == GPIO_PIN_4);
+    } else {
         return -1;
     }
-
-    return 0;
 }
 
 // ---------------------------------------------------------------------------------------------------------------------------------
